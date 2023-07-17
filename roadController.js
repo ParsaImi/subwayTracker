@@ -1,4 +1,4 @@
-const Road = require("../models/roadModel")
+const Road = require("./models/roadModel")
 
 exports.getRoads = async (req , res ,next) => {
     const roads = await Road.find()
