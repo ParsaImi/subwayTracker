@@ -1,7 +1,7 @@
 const app = require('./app')
 const mongoose = require('mongoose')
 const dotenv = require('dotenv')
-const roadController = require("./controller/roadController")
+const roadController = require("./app/http/controller/roadController")
 console.log(roadController);
 
 dotenv.config({path : './config.env'})
