@@ -16,7 +16,7 @@ dotenv.config({path : './config.env'})
      console.log('app connected to the DataBase');
   })
 
-const server = app.listen(2000 , () => {
+const server = app.listen(7000 , () => {
     console.log('server waiting for request');
     
 })
