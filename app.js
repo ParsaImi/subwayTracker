@@ -11,9 +11,7 @@ const roadOptionRouter = require("./app/routes/roadOptionRouter")
 const errorController = require("./app/http/controller/errorController")
 const graphRouter = require("./app/routes/graphRouter")
 
-app.use(express.json())
-app.use(express.urlencoded({extended : true}))
-app.use(express.static(path.join(__dirname, 'public')))
+
 
 
 app.use("/api/roadsoptions" , roadOptionRouter)
